@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: Student-Performance-Indicator
+Version: 0.0.1
+Author: Arshia
+Author-email: arshiasood109@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: requires-dist
