@@ -1,0 +1,35 @@
+gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,math_score,reading_score,writing_score
+male,group D,some college,free/reduced,none,59,62,61
+female,group D,some college,standard,completed,75,77,83
+female,group D,master's degree,standard,none,64,63,66
+male,group E,associate's degree,standard,none,89,76,74
+male,group E,associate's degree,standard,completed,94,85,82
+female,group C,high school,standard,none,65,69,67
+male,group D,master's degree,standard,none,89,84,82
+female,group D,bachelor's degree,standard,completed,68,75,81
+female,group E,bachelor's degree,standard,none,37,45,38
+female,group B,associate's degree,free/reduced,none,54,65,65
+female,group B,high school,free/reduced,completed,46,54,58
+female,group C,some high school,standard,completed,44,51,55
+male,group D,associate's degree,free/reduced,none,52,57,50
+male,group C,high school,standard,completed,86,81,80
+male,group A,some high school,standard,none,71,62,50
+male,group E,high school,standard,none,94,73,71
+male,group B,some college,free/reduced,completed,59,65,66
+female,group C,associate's degree,standard,none,63,67,70
+female,group C,associate's degree,standard,completed,67,84,86
+male,group D,high school,free/reduced,none,66,74,69
+male,group C,associate's degree,free/reduced,none,64,66,59
+female,group B,associate's degree,standard,completed,52,66,73
+male,group A,some college,standard,completed,78,72,70
+male,group D,some college,standard,completed,63,55,63
+male,group D,some college,standard,none,72,57,58
+male,group E,associate's degree,free/reduced,none,90,90,82
+male,group C,some college,standard,none,66,59,52
+male,group D,some college,free/reduced,none,77,62,64
+female,group C,high school,free/reduced,none,53,72,64
+female,group B,high school,standard,none,87,95,86
+female,group D,master's degree,standard,none,74,79,82
+female,group C,bachelor's degree,free/reduced,completed,74,86,89
+female,group D,bachelor's degree,free/reduced,none,62,72,74
+female,group C,some college,standard,none,54,64,65

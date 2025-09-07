@@ -43,10 +43,10 @@ class ModelTrainer:
                 "CatBoosting Regressor":CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor":AdaBoostRegressor()
             }
-            model_report:dict=evaluate_models(x_train=x_train,y_train=y_train,x_test=x_train,y_test=y_test,models=models)
+            model_report:dict=evaluate_models(x_train=x_train,y_train=y_train,x_test=x_test,y_test=y_test,models=models,param={})
 
             best_model_score=max(sorted(model_report.values()))
-            best_model_name=list(model_report.keys())[list(model_report.values()).index(best_model_name)]
+            best_model_name=list(model_report.keys())[list(model_report.values()).index(best_model_score)]
 
             best_model=models[best_model_name]
 
@@ -64,7 +64,7 @@ class ModelTrainer:
 
             r2_sq=r2_score(y_test,predicted)
 
-            return r2_score
+            return r2_sq
 
         except Exception as e:
             raise CustomException(e,sys)
